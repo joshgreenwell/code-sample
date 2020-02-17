@@ -1,4 +1,5 @@
-useEffect(() => {
+...
+  useEffect(() => {
     const getUserData = async () => {
       const data = await getUserThoughtsRequest(user.id)
       const thoughts: Thought[] = []
@@ -30,3 +31,4 @@ useEffect(() => {
       getSharedData()
     }
   }, [user])
+...
