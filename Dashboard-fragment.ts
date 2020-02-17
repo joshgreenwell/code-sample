@@ -1,3 +1,9 @@
+type Thought = {
+  user: string,
+  thought: string,
+  timestamp: number
+  [key: string]: any
+}
 ...
   useEffect(() => {
     const getUserData = async () => {
